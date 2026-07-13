@@ -1,6 +1,6 @@
 # grill-master conventions
 
-The tracker is the filesystem: `.brain/projects/<effort>/` in the repo that owns the effort (whichever repo owns the effort). Files are `.svx` in my MDSvX-based setup. Frontmatter is the machine surface; the scan below reads it, so follow it exactly.
+The tracker is the filesystem: `.brain/projects/<effort>/` in whichever repo owns the effort. Files are `.svx` in my MDSvX-based setup. Frontmatter is the machine surface; the scan below reads it, so follow it exactly.
 
 ## Layout
 
