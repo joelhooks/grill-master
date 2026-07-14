@@ -1,6 +1,6 @@
 # grill-master
 
-An agent skill for efforts too big for one session. It turns a loose idea into a **working brief** — finish line, open questions, decision ledger — then works it **one question per session** until nothing is left to decide.
+An agent skill for efforts too big for one session. Those fail by drift: the outcome slides away from the intent, one unshared assumption at a time. grill-master turns a loose idea into a **working brief** — the operator's intent made checkable: finish line, shared vocabulary, open questions, decision ledger — then works it **one question per session** until nothing is left to decide.
 
 The governing move is **the unfolding rule**: answer one question, then re-read the brief as a whole and record what the answer changed. The shape of the work unfolds out of decisions; it isn't territory waiting to be discovered.
 
@@ -31,6 +31,7 @@ What changed here, and why:
 
 - **The metaphor.** Wayfinder frames planning as exploration — maps, destinations, fog of war. Charming, but the explorer frame hides the central fact of planning: the territory doesn't exist until you decide it. Following the method of Lakoff & Johnson's *Metaphors We Live By* (pick the metaphor whose entailments cause the behavior you need), the central artifact became a plain **brief** governed by one rule borrowed from Christopher Alexander's *The Nature of Order*: the work **unfolds**, one structure-preserving step at a time. The metaphor budget is two words — sessions *grill*, briefs *unfold* — and every mechanical term stays boring on purpose.
 - **The unit is a question**, not a ticket — tickets read as implementation work; questions read as decisions.
+- **Alignment is the job.** The brief carries a shared **vocabulary** (terms challenged and settled between operator and agent), the finish line includes how the result stays maintained, and the prototype question kind is the favored instrument — something touchable surfaces the misunderstandings prose hides.
 - **The tracker is baked in** as plain files with a frontmatter contract and a deterministic scan, instead of delegating to a per-repo tracker doc.
 - It pairs with Matt's [grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) / grilling skills as the human-in-the-loop engine, and it was written following his [writing-great-skills](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-great-skills/SKILL.md) reference.
 

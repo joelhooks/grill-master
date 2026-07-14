@@ -25,7 +25,10 @@ privacy: "private"
 # <Title>
 
 ## Finish line
-<observable conditions that end the effort — one or two lines>
+<observable conditions that end the effort, incl. how the result stays maintained — one or two lines>
+
+## Vocabulary
+- **<term>** — <the settled meaning, one line>
 
 ## Notes
 <domain; skills to consult; mid-effort calls (attributed, dated); execution authorization if granted>
