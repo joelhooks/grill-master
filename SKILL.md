@@ -69,4 +69,4 @@ The user names a brief, or a brief plus a question.
 
 ## Register
 
-A metaphor highlights and hides (Lakoff): explorer talk hid that the territory is made by deciding, and cook talk would bury the thinking under garnish. So mechanics stay plain fields — status, blockers, assignee, finish line — legible to any agent that has never read this skill, and the flavor budget is two words: sessions **grill**, briefs **unfold**. The 🌭 is the skill's mark, not a stamp — it goes in names that already take an emoji (a herdr pane serving a brief) and never inside the files.
+A metaphor highlights and hides (Lakoff): explorer talk hid that the territory is made by deciding, and cook talk would bury the thinking under garnish. So mechanics stay plain fields — status, blockers, assignee, finish line — legible to any agent that has never read this skill, and the flavor budget is two words: sessions **grill**, briefs **unfold**. Two marks, one home each: 🌭 is the skill's identity (its title); 🔥 marks a herdr pane running a grill session. Neither goes inside the files.
