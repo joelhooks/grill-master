@@ -7,7 +7,8 @@ The governing move is **the unfolding rule**: answer one question, then re-read 
 ## Files
 
 - [`SKILL.md`](SKILL.md) — the skill: the brief, question kinds (research / prototype / grilling / task), claim discipline, charter mode, work mode.
-- [`CONVENTIONS.md`](CONVENTIONS.md) — the tracker contract: file layout, frontmatter, the 24-hour claim staleness rule, a deterministic ready-question scan, worker task-file recipe.
+- [`CONVENTIONS.md`](CONVENTIONS.md) — the tracker contract: file layout, frontmatter, the 24-hour claim staleness rule, worker task-file recipe.
+- [`scan.py`](scan.py) — the ready-question scan (open + unclaimed + blockers closed), shipped so sessions run it instead of re-typing it.
 
 The tracker is just files in the repo — no issue tracker, no service. Questions are frontmatter; the frontier is a scan.
 
