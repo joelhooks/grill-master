@@ -22,7 +22,7 @@ created_at: "YYYY-MM-DD"
 privacy: "private"
 ---
 
-# 🌭 <Title>
+# <Title>
 
 ## Finish line
 <observable conditions that end the effort, incl. how the result stays maintained>
