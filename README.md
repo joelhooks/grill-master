@@ -1,4 +1,4 @@
-# 🌭 grill-master
+# 🔥 grill-master
 
 An agent skill for efforts too big for one session. Those fail by drift: the outcome slides away from the intent, one unshared assumption at a time. grill-master turns a loose idea into a **working brief** — the operator's intent made checkable: finish line, shared vocabulary, open questions, decision ledger — then works it **one question per session** until nothing is left to decide.
 

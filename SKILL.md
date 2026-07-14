@@ -5,7 +5,7 @@ basis:
   - https://github.com/mattpocock/skills/blob/main/skills/engineering/wayfinder/SKILL.md
 ---
 
-# 🌭 grill-master
+# 🔥 grill-master
 
 An effort too big for one session fails a specific way: the outcome drifts from the intent, one unshared assumption at a time. grill-master exists to prevent that drift. It turns a loose idea into a **working brief** — the operator's intent made checkable: the **finish line**, the shared **vocabulary**, the open **questions**, and the **decision ledger**. Sessions work the brief one question at a time until nothing is left to decide.
 
@@ -69,4 +69,4 @@ The user names a brief, or a brief plus a question.
 
 ## Register
 
-A metaphor highlights and hides (Lakoff): explorer talk hid that the territory is made by deciding, and cook talk would bury the thinking under garnish. So mechanics stay plain fields — status, blockers, assignee, finish line — legible to any agent that has never read this skill, and the flavor budget is two words: sessions **grill**, briefs **unfold**. Two marks, one home each: 🌭 is the skill's identity (its title); 🔥 marks a herdr pane running a grill session. Neither goes inside the files.
+A metaphor highlights and hides (Lakoff): explorer talk hid that the territory is made by deciding, and cook talk would bury the thinking under garnish. So mechanics stay plain fields — status, blockers, assignee, finish line — legible to any agent that has never read this skill, and the flavor budget is two words: sessions **grill**, briefs **unfold**. One mark: 🔥 — the skill's title, and a herdr pane running a grill session. It never goes inside the files.
