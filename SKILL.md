@@ -26,9 +26,9 @@ In everything the human reads, call briefs and steps by their titles with the fi
 One directory per effort: `.brain/projects/<effort>/` — the brief file, one file per step, any assets. The brief is an **index**, not a store: each resolution lives in its step file; the brief gists it in one ledger line and links. Its sections:
 
 - **Finish line** — the explicit, observable conditions that end the effort, including how the result stays maintained after it. Named first, at charter: it fixes scope, so it shapes every step.
-- **Vocabulary** — the terms this effort has settled, one line each. This is the effort's pattern language: operator and agent converge on it here, and the workflow's steps get named in its terms. A term used two ways silently forks the work, so any session that catches drift challenges the term on the spot and lands the settled meaning before closing.
+- **Vocabulary** — the terms this effort has settled, one line each. This is the effort's pattern language, and it is a record of negotiations, not a glossary: words don't carry meaning by themselves — drift is exactly that assumption failing — so each line is a settlement between operator and agent, and the workflow's steps get named in its terms. A term used two ways silently forks the work; any session that catches drift re-negotiates the term on the spot and lands the settled meaning before closing.
 - **Notes** — domain, skills every session should consult, standing calls made mid-effort (attributed, dated), execution authorization if granted.
-- **Decision ledger** — one line per closed step: name-link plus gist.
+- **Decision ledger** — one line per closed step: name-link plus gist. Closed is not solved forever: when reality reopens a settled decision, charter a new step that names what it supersedes — the old resolution never gets edited, and the reappearance is natural, not failure.
 - **Not yet specified** — unknowns too soft to phrase as steps. The test: can you state the step precisely now, even if you can't take it yet? Sharp → its own step file (blocked is fine). Soft → one line here, graduating when a result sharpens it.
 - **Out of scope** — work ruled past the finish line. It never graduates; it returns only if the finish line is redrawn, as a fresh effort. When an existing step turns out to sit past the finish line, close it and leave one line here saying why, linking it.
 
@@ -40,7 +40,7 @@ A step is one session-sized unit of the workflow — a decision, an investigatio
 
 - **research** (AFK) — a fact outside the working tree that a decision waits on. Produces a linked asset.
 - **prototype** (HITL) — the strongest alignment instrument: a cheap, concrete artifact the operator can touch, via the `prototype` skill. Reach for it early and often — prose agreement is cheap, and a touchable thing surfaces the misunderstandings prose hides.
-- **grilling** (HITL, the default) — a live decision conversation via `grill-me` (add `grill-with-docs` when the effort should accrete ADRs), one question at a time, recommendation first. Challenge terms against the Vocabulary as they're used; stress-test decisions with concrete scenarios, including who maintains the result and how it fails over time.
+- **grilling** (HITL, the default) — a live decision conversation via `grill-me` (add `grill-with-docs` when the effort should accrete ADRs), one question at a time, recommendation first. The heat is on the decision, never the human: a grilling is two parties negotiating toward a shared vision, not an interrogation of the operator. Challenge terms against the Vocabulary as they're used; stress-test decisions with concrete scenarios, including who maintains the result and how it fails over time.
 - **task** (either) — execution the brief's Notes authorize, or groundwork a decision waits on: provisioning, access, moving data so its shape can be seen. States its done-condition up front ("Resolved when …") and records what was done plus the facts later steps depend on.
 
 HITL means the human speaks for themselves; the session that answers its own grilling has broken the step — reopen it.
@@ -69,4 +69,4 @@ The user names a brief, or a brief plus a step.
 
 ## Register
 
-A metaphor highlights and hides (Lakoff): explorer talk hid that the workflow is made by deciding, and cook talk would bury the thinking under garnish. So the working words are literal workflow words — step, ready, blocked, claim, finish line — legible to any agent that has never read this skill, and the flavor budget is two words: sessions **grill**, briefs **unfold**. One mark: 🔥 — the skill's title, and a herdr pane running a grill session. It never goes inside the files.
+A metaphor highlights and hides (Lakoff): explorer talk hid that the workflow is made by deciding, and cook talk would bury the thinking under garnish. So the working words are literal workflow words — step, ready, blocked, claim, finish line — legible to any agent that has never read this skill, and the flavor budget is two words: sessions **grill**, briefs **unfold**. Agents enact a metaphor's entailments mechanically — whatever this file's words imply, sessions will do — so the budget is a safety mechanism, not taste. One mark: 🔥 — the skill's title, and a herdr pane running a grill session. It never goes inside the files.
