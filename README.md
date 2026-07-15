@@ -1,16 +1,16 @@
 # 🔥 grill-master
 
-An agent skill for efforts too big for one session. Those fail by drift: the outcome slides away from the intent, one unshared assumption at a time. grill-master turns a loose idea into a **working brief** — the operator's intent made checkable: finish line, shared vocabulary, open questions, decision ledger — then works it **one question per session** until nothing is left to decide.
+An agent skill for efforts too big for one session. Those fail by drift: the outcome slides away from the intent, one unshared assumption at a time. grill-master turns a loose idea into a **working brief** — the operator's intent made checkable: finish line, shared vocabulary, open steps, decision ledger — then works it **one step per session** until the finish line holds.
 
-The governing move is **the unfolding rule**: answer one question, then re-read the brief as a whole and record what the answer changed. The shape of the work unfolds out of decisions; it isn't territory waiting to be discovered.
+The governing move is **the unfolding rule**: take one step, then re-read the brief as a whole and record what the step changed. The workflow unfolds out of decisions; it isn't drawn before it runs.
 
 ## Files
 
-- [`SKILL.md`](SKILL.md) — the skill: the brief, question kinds (research / prototype / grilling / task), claim discipline, charter mode, work mode.
+- [`SKILL.md`](SKILL.md) — the skill: the brief, step kinds (research / prototype / grilling / task), claim discipline, charter mode, work mode.
 - [`CONVENTIONS.md`](CONVENTIONS.md) — the tracker contract: file layout, frontmatter, the 24-hour claim staleness rule, worker task-file recipe.
-- [`scan.py`](scan.py) — the ready-question scan (open + unclaimed + blockers closed), shipped so sessions run it instead of re-typing it.
+- [`scan.py`](scan.py) — the ready-step scan (open + unclaimed + blockers closed), shipped so sessions run it instead of re-typing it.
 
-The tracker is just files in the repo — no issue tracker, no service. Questions are frontmatter; the frontier is a scan.
+The tracker is just files in the repo — no issue tracker, no service. Steps are frontmatter; the frontier is a scan.
 
 ## Install
 
@@ -26,17 +26,17 @@ Then hand it a loose idea: "grill-master this."
 
 ## Credit
 
-This is a fork-in-spirit of **[Matt Pocock](https://github.com/mattpocock)'s [wayfinder](https://github.com/mattpocock/skills/blob/main/skills/engineering/wayfinder/SKILL.md)** ([mattpocock/skills](https://github.com/mattpocock/skills), MIT). The mechanics are wayfinder's — the shared planning artifact, session-sized decision units, blocking and the frontier, claim-by-assign, fog vs. ticket, out-of-scope discipline, one resolution per session. If you want the original explorer-flavored version, use his; it's excellent and actively maintained.
+This is a fork-in-spirit of **[Matt Pocock](https://github.com/mattpocock)'s [wayfinder](https://github.com/mattpocock/skills/blob/main/skills/engineering/wayfinder/SKILL.md)** ([mattpocock/skills](https://github.com/mattpocock/skills), MIT). The mechanics are wayfinder's — the shared planning artifact, session-sized units, blocking and the frontier, claim-by-assign, fog vs. ticket, out-of-scope discipline, one resolution per session. If you want the original explorer-flavored version, use his; it's excellent and actively maintained.
 
 What changed here, and why:
 
-- **The metaphor.** Wayfinder frames planning as exploration — maps, destinations, fog of war. Charming, but the explorer frame hides the central fact of planning: the territory doesn't exist until you decide it. Following the method of Lakoff & Johnson's *Metaphors We Live By* (pick the metaphor whose entailments cause the behavior you need), the central artifact became a plain **brief** governed by one rule borrowed from Christopher Alexander's *The Nature of Order*: the work **unfolds**, one structure-preserving step at a time. The metaphor budget is two words — sessions *grill*, briefs *unfold* — and every mechanical term stays boring on purpose.
-- **The unit is a question**, not a ticket — tickets read as implementation work; questions read as decisions.
-- **Alignment is the job.** The brief carries a shared **vocabulary** (terms challenged and settled between operator and agent), the finish line includes how the result stays maintained, and the prototype question kind is the favored instrument — something touchable surfaces the misunderstandings prose hides.
+- **The metaphor.** Wayfinder frames planning as exploration — maps, destinations, fog of war. Charming, but the explorer frame hides the central fact of planning: the territory doesn't exist until you decide it. Following the method of Lakoff & Johnson's *Metaphors We Live By* (pick the metaphor whose entailments cause the behavior you need), the central artifact became a plain **brief** governed by one rule borrowed from Christopher Alexander's *The Nature of Order*: the work **unfolds**, one structure-preserving step at a time. The metaphor budget is two words — sessions *grill*, briefs *unfold* — and every working word stays a literal workflow word.
+- **The unit is a step**, not a ticket. It started as "question" to push decide-first behavior, but real usage showed half the units were authorized build work wearing a question costume — so the noun now tells the truth. A step can be a decision (grilling), research, a prototype, or authorized execution (task); "question" survives inside grilling steps, where it was always honest.
+- **Alignment is the job.** The brief carries a shared **vocabulary** (terms challenged and settled between operator and agent), the finish line includes how the result stays maintained, and the prototype step kind is the favored instrument — something touchable surfaces the misunderstandings prose hides.
 - **The tracker is baked in** as plain files with a frontmatter contract and a deterministic scan, instead of delegating to a per-repo tracker doc.
 - It pairs with Matt's [grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) / grilling skills as the human-in-the-loop engine, and it was written following his [writing-great-skills](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-great-skills/SKILL.md) reference.
 
-The design conversation that produced this — five candidate metaphor systems mapped term-for-term onto the mechanics, a highlight/hide analysis of each — was itself run as a brief under these mechanics, questions resolved one session at a time. It dogfoods.
+The design conversation that produced this — five candidate metaphor systems mapped term-for-term onto the mechanics, a highlight/hide analysis of each — was itself run as a brief under these mechanics, steps resolved one session at a time. It dogfoods.
 
 ## License
 

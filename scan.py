@@ -32,16 +32,18 @@ def live(assignee):
     return bool(m) and (today - datetime.date.fromisoformat(m.group(1))).days < 1
 
 
+STEP_TYPES = {"step", "question"}  # "question" = pre-2026-07-15 contract
+
 files = {f: fmatter(os.path.join(d, f)) for f in os.listdir(d) if f.endswith(".svx")}
 closed = {f for f, fm in files.items() if field(fm, "status") == "closed"}
 ready = 0
 for f, fm in sorted(files.items()):
-    if field(fm, "type") != "question" or field(fm, "status") != "open":
+    if field(fm, "type") not in STEP_TYPES or field(fm, "status") != "open":
         continue
     if live(field(fm, "assignee")):
         continue
     if all(b in closed for b in deps(fm)):
         print(f"READY: {f} — {field(fm, 'title')}")
         ready += 1
-open_qs = sum(1 for fm in files.values() if field(fm, "type") == "question" and field(fm, "status") == "open")
-print(f"{ready} ready / {open_qs} open")
+open_steps = sum(1 for fm in files.values() if field(fm, "type") in STEP_TYPES and field(fm, "status") == "open")
+print(f"{ready} ready / {open_steps} open")
