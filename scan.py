@@ -23,7 +23,9 @@ def field(fm, k):
 
 
 def deps(fm):
-    m = re.search(r"^blockers:\n((?:\s+-\s+.*\n)*)", fm, re.M)
+    m = re.search(r"^blockers:\s*\[([^\]]*)\]", fm, re.M)  # inline: blockers: ["./a.svx"]
+    if not m:
+        m = re.search(r"^blockers:\n((?:\s+-\s+.*\n)*)", fm, re.M)  # block list
     return re.findall(r"([\w-]+\.svx)", m.group(1)) if m else []
 
 
