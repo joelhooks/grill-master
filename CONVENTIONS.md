@@ -36,7 +36,7 @@ privacy: "private"
 ## Decision ledger
 - [<closed step title>](./<file>.svx) — <one-line gist of the result>
 
-## Not yet specified
+## Latent
 - <soft unknown, one line each>
 
 ## Out of scope
