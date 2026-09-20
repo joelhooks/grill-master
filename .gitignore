@@ -1,0 +1,4 @@
+# Agent-only local state. The public repo ships the skill, not the operator rig.
+.agent_sources/
+.pi/notes-bridge/
+.DS_Store
