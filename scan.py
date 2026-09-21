@@ -37,7 +37,7 @@ def live(assignee):
 STEP_TYPES = {"step", "question"}  # "question" = pre-2026-07-15 contract
 
 files = {f: fmatter(os.path.join(d, f)) for f in os.listdir(d) if f.endswith(".svx")}
-closed = {f for f, fm in files.items() if field(fm, "status") == "closed"}
+closed = {f for f, fm in files.items() if field(fm, "status") in ("closed", "done")}
 ready = 0
 for f, fm in sorted(files.items()):
     if field(fm, "type") not in STEP_TYPES or field(fm, "status") != "open":

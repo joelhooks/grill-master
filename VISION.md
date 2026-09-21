@@ -16,7 +16,7 @@ The deterministic operations — the ready scan, claiming, closing, appending le
 
 ## Many workers, one brief
 
-One step per session composes: a steering session charters the brief and fires a worker per ready AFK step, each claiming before work, each unfolding the brief when it lands. The claim discipline and the 24-hour staleness rule exist precisely so concurrent sessions — human-driven and autonomous — can share a brief without stepping on each other. The ceiling here is a brief being worked by a fleet while you sleep, with the grilling questions queued up waiting for you at breakfast.
+One step at a time composes: a steering session charters the brief and fires a worker per ready AFK step, each claiming before work, each unfolding the brief when it lands. The claim discipline and the 24-hour staleness rule exist precisely so concurrent sessions — human-driven and autonomous — can share a brief without stepping on each other. The ceiling here is a brief being worked by a fleet while you sleep, with the grilling questions queued up waiting for you at breakfast.
 
 ## Grilling by voice
 
@@ -33,6 +33,6 @@ This repo tracks its ancestor. Matt Pocock's [wayfinder](https://github.com/matt
 ## What won't change
 
 - Mechanics keep boring names. Status, blockers, assignee, finish line — legible to any agent that never read the lore.
-- One step per session. The unfolding rule needs a settled brief between moves.
+- One step at a time. The unfolding rule needs a settled brief between moves.
 - Decide, don't implement — by default. Execution is a granted authorization on the brief, never an assumption.
-- The metaphor budget stays two words: sessions grill, briefs unfold.
+- The metaphor budget stays three words: sessions grill, briefs unfold, soft unknowns stay latent.

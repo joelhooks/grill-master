@@ -15,7 +15,7 @@ All file formats, claim rules, and the ready scan live in [CONVENTIONS.md](CONVE
 
 ## Decide, don't implement
 
-Each step defaults to resolving a decision; the brief is done when someone could build the thing without another decision — and maintain it without archaeology. The pull to just do the work is the signal you've reached the brief's edge — record the decision and hand off. A brief's **Notes** may explicitly authorize execution — many do, and that is what turns task steps into build work; absent that, sessions produce decisions.
+Each step defaults to resolving a decision; the brief is done when someone could build the thing without another decision — and maintain it without archaeology. The pull to just do the work is the signal you've reached the brief's edge — record the decision and hand off. Execution may be authorized in the brief's **Notes** or the current user request. Record live authorization while proceeding; a planning-only request remains decision work.
 
 ## Refer by name
 
@@ -41,11 +41,11 @@ A step is one session-sized unit of the workflow — a decision, an investigatio
 - **research** (AFK) — a fact outside the working tree that a decision waits on. Produces a linked asset.
 - **prototype** (HITL) — the strongest alignment instrument: a cheap, concrete artifact the operator can touch, via the `prototype` skill — prose agreement is cheap, and a touchable thing surfaces the misunderstandings prose hides.
 - **grilling** (HITL, the default) — a live decision conversation via `grill-me` (add `grill-with-docs` when the effort should accrete ADRs), one question at a time, recommendation first. The heat is on the decision, never the human: a grilling is two parties negotiating toward a shared vision, not an interrogation of the operator. Stress-test decisions with concrete scenarios, including who maintains the result and how it fails over time.
-- **task** (either) — execution the brief's Notes authorize, or groundwork a decision waits on: provisioning, access, moving data so its shape can be seen. States its done-condition up front ("Resolved when …") and records what was done plus the facts later steps depend on.
+- **task** (either) — execution the brief's Notes or current user request authorize, or groundwork a decision waits on: provisioning, access, moving data so its shape can be seen. States its done-condition up front ("Resolved when …") and records what was done plus the facts later steps depend on.
 
 HITL means the human speaks for themselves; the session that answers its own grilling has broken the step — reopen it.
 
-**Claim before any work**: stamp yourself as `assignee` per CONVENTIONS.md, which also governs staleness and takeover. **One step per session** — a second step needs a second session (a worker, or a fresh invocation).
+**Claim before any work**: stamp yourself as `assignee` per CONVENTIONS.md, which also governs staleness and takeover. After each step, update and re-read the brief. Continue ready authorized steps in this session; start another worker only for useful independent work.
 
 ## Charter a brief
 

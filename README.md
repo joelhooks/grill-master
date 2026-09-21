@@ -1,6 +1,6 @@
 # 🔥 grill-master
 
-An agent skill for efforts too big for one session. Those fail by drift: the outcome slides away from the intent, one unshared assumption at a time. grill-master turns a loose idea into a **working brief** — the operator's intent made checkable: finish line, shared vocabulary, open steps, decision ledger — then works it **one step per session** until the finish line holds.
+An agent skill for efforts too big for one session. Those fail by drift: the outcome slides away from the intent, one unshared assumption at a time. grill-master turns a loose idea into a **working brief** — the operator's intent made checkable: finish line, shared vocabulary, open steps, decision ledger — then works it **one step at a time** until the finish line holds.
 
 The governing move is **the unfolding rule**: take one step, then re-read the brief as a whole and record what the step changed. The workflow unfolds out of decisions; it isn't drawn before it runs.
 
@@ -30,7 +30,7 @@ This is a fork-in-spirit of **[Matt Pocock](https://github.com/mattpocock)'s [wa
 
 What changed here, and why:
 
-- **The metaphor.** Wayfinder frames planning as exploration — maps, destinations, fog of war. Charming, but the explorer frame hides the central fact of planning: the territory doesn't exist until you decide it. Following the method of Lakoff & Johnson's *Metaphors We Live By* (pick the metaphor whose entailments cause the behavior you need), the central artifact became a plain **brief** governed by one rule borrowed from Christopher Alexander's *The Nature of Order*: the work **unfolds**, one structure-preserving step at a time. The metaphor budget is two words — sessions *grill*, briefs *unfold* — and every working word stays a literal workflow word.
+- **The metaphor.** Wayfinder frames planning as exploration — maps, destinations, fog of war. Charming, but the explorer frame hides the central fact of planning: the territory doesn't exist until you decide it. Following the method of Lakoff & Johnson's *Metaphors We Live By* (pick the metaphor whose entailments cause the behavior you need), the central artifact became a plain **brief** governed by one rule borrowed from Christopher Alexander's *The Nature of Order*: the work **unfolds**, one structure-preserving step at a time. The metaphor budget is three words — sessions *grill*, briefs *unfold*, soft unknowns stay *latent* — and every working word stays a literal workflow word.
 - **The unit is a step**, not a ticket. It started as "question" to push decide-first behavior, but real usage showed half the units were authorized build work wearing a question costume — so the noun now tells the truth. A step can be a decision (grilling), research, a prototype, or authorized execution (task); "question" survives inside grilling steps, where it was always honest.
 - **Alignment is the job.** The brief carries a shared **vocabulary** (terms challenged and settled between operator and agent), the finish line includes how the result stays maintained, and the prototype step kind is the favored instrument — something touchable surfaces the misunderstandings prose hides.
 - **The tracker is baked in** as plain files with a frontmatter contract and a deterministic scan, instead of delegating to a per-repo tracker doc.
